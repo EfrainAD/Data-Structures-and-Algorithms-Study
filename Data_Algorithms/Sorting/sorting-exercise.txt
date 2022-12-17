@@ -26,15 +26,20 @@ Quck sort (if you have a lot of memory, Marge can work too.)
 Bubble and Selection sort (Nobody actoully uses them.)
 
 Some notes.
-Quck Sort:
-     Used when avg preformans matters more then the worsed proformanse.
+Quick Sort:
+   Used when average performance matters more than the worse case performance.
+
 Marge Sort 
-     Is good when memory (space complexity) is not an issue since you don't need worry about worse case being O(n^2).
+   Is good when memory (space complexity) is not an issue since you don't need to worry about worse case being O(n^2).
+
 Quick sort VS Marge Sort 
-     Marge uses more member by is 'stable' by not having a worse case to think about. Sort uses less memory but also has a bad worse case.
+   Marge uses more memory but is 'stable' by not having a worse case to think about. Sort uses less memory but also has a worse case of n^2.
+
 Insertion sort 
-     Good for small things, or if the list is mostly sorted. (note: uses very little space. n(1))
+   Good for small things, or if the list is mostly sorted. (note: uses very little space. O(n(1))
+
 Counting sort and Radix sort 
-     Good for numbers intergers that range is restricted.
+   Good for numbers that are integers, that has a restricted range.
+
 JavaScript.sort() 
-     Uses different sort method based on the web browser. If it's a sort done by the we broswer you'll not know what one be used by the User.
+   Uses different sort method based on the web browser. If it's a sort done by the web browser. Therefor you'll not know what one be used by the user.
