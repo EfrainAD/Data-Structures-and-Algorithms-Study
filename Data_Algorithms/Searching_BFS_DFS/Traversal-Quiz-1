@@ -1,0 +1,14 @@
+// Traversal-Quiz-1
+
+//If you know a solution is not far from the root of the tree:
+     BFS
+//If the tree is very deep and solutions are rare: 
+     BFS (DFS will take longer, though BFS uses more memory. So debatable answer.)
+//If the tree is very wide:
+     DFS (BFS Use up to mjuch memory)
+//If solutions are frequent but located deep in the tree:
+     DFS (Hopefully quicker)
+//Determining whether a path exists between two nodes:
+     DFS (What it is built for.)
+//Finding the shortest path
+     BFS 
