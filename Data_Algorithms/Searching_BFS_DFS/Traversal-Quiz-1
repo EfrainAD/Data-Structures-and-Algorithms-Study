@@ -12,3 +12,39 @@
      DFS (What it is built for.)
 //Finding the shortest path
      BFS 
+
+NOTE: 
+     BFS = Breadth First Search
+     DFS = Depth First Search
+     DFS to know worse case is to know how deep the tree is.
+     Shortest path to something you would use?
+          BFS
+     To know if something exists, best to use?
+          DFS
+     
+     BFS more memory and faster,
+     DFS less memory and slower,
+
+     EXSTR 
+          Shortest path, Dijkstra vs. Bellmen
+               Dijkstra - faster but no negitive wieghts
+               Bellmen - loswer but has negitive wieght, it can take log time to run. worse Case On^2 
+
+//////// Refracted for LinkedIN
+Notes on my take away from learning about searching the tree.
+The two main kinds are?
+     Breadth First Search and Depth First Search
+What overall technical different between them?
+     BFS is faster, but uses more memory
+     DFS is slower, but uses less memory
+     Of course, these not the important differences.
+If you want to know the shortest path, the best one to use is?
+     BFS - Breadth First Search
+If you just want to know if something exists, the best one to to use is?
+     DFS - Depth First Search
+
+If you need the shortest path that are weighted, you use?
+     Dijkstra or Bellmen
+What are the differences?
+     Dijkstra - faster, but can't use negitive weights
+     Bellmen - slower, but can use negitive weight, worse case being On^2.
